@@ -436,7 +436,6 @@ zlib
 # N
 ModemManager 
 NetworkManager 
-alpine 
 autofs 
 biff+comsat 
 bind 
@@ -457,7 +456,6 @@ dhcpcd
 dirmngr 
 dnsmasq 
 ebtables 
-elm 
 epic5 
 ethtool 
 fetchmail 
@@ -504,7 +502,6 @@ mcabber
 metamail 
 mobile-broadband-provider-info 
 mtr 
-mutt 
 nc 
 ncftp 
 net-snmp 
