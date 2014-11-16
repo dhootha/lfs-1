@@ -1,51 +1,27 @@
 # A
-cups 
 kernel-generic 
 kernel-generic-smp 
 kernel-huge 
 kernel-modules 
-tcsh 
 
 # AP
-a2ps 
-alsa-utils 
-amp 
-cdparanoia 
-cdrdao 
-cdrtools 
-dvd+rw-tools 
-flac 
-foomatic-filters 
-ghostscript 
-ghostscript-fonts-std 
-gphoto2 
-gutenprint 
 hplip 
-madplay 
 mariadb 
-mc 
-mpg123 
-nano 
-normalize 
-sox 
-vorbis-tools 
-zsh 
 
 # D
 ccache 
+distcc 
 gcc-gfortran 
 gcc-gnat 
 gcc-go 
 gcc-java 
 gcc-objc 
 
-
 # E
 emacs 
 
 # EXTRA
 mplayerplug-in
-recordmydesktop
 
 # F
 linux-faqs 
@@ -303,39 +279,24 @@ kde-l10n-wa
 kde-l10n-zh_CN 
 kde-l10n-zh_TW 
 
-# L
-akonadi 
-alsa-lib 
-alsa-oss 
-phonon 
-phonon-gstreamer 
-phonon-mplayer 
-phonon-xine 
-qt 
-shared-desktop-ontologies 
-system-config-printer 
-tango-icon-theme 
-tango-icon-theme-extras 
-virtuoso-ose 
-wavpack 
-
-
 # N
 alpine 
+dnsmasq 
 elm 
+fetchmail 
 httpd 
+lynx 
 mutt 
+php 
 proftpd 
 samba 
 vsftpd 
-
 
 # T
 tetex 
 tetex-doc 
 transfig 
 xfig 
-
 
 # X
 font-misc-cyrillic 
@@ -346,8 +307,6 @@ sinhala_lklug-font-ttf
 tibmachuni-font-ttf 
 ttf-indic-fonts 
 wqy-zenhei-font-ttf 
-xf86-video-nouveau 
-xf86-video-nv 
 
 # XAP
 MPlayer 

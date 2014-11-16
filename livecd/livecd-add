@@ -14,6 +14,7 @@ coreutils
 cpio 
 cpufrequtils 
 cryptsetup 
+cups 
 cxxlibs 
 dbus 
 dcron 
@@ -90,6 +91,7 @@ sysvinit
 sysvinit-functions 
 sysvinit-scripts 
 tar 
+tcsh 
 time 
 tree 
 udev 
@@ -107,19 +109,32 @@ xz
 zoo 
 
 # AP
+a2ps 
 acct 
+alsa-utils 
+amp 
 ash 
 at 
 bc 
 bpe 
+cdparanoia 
+cdrdao 
+cdrtools 
 dc3dd 
 ddrescue 
 diffstat 
 diffutils 
 dmapi 
 dmidecode 
+dvd+rw-tools 
 enscript 
+flac 
+foomatic-filters 
+ghostscript 
+ghostscript-fonts-std 
+gphoto2 
 groff 
+gutenprint 
 htop 
 ispell 
 itstool 
@@ -133,10 +148,15 @@ lm_sensors
 lsof 
 lsscsi 
 lxc 
+madplay 
 man 
 man-pages 
+mc 
 moc 
 most 
+mpg123 
+nano 
+normalize 
 pm-utils 
 powertop 
 radeontool 
@@ -147,6 +167,7 @@ screen
 seejpeg 
 slackpkg 
 soma 
+sox 
 sqlite 
 sudo 
 sysstat 
@@ -155,8 +176,10 @@ texinfo
 tmux 
 vbetool 
 vim 
+vorbis-tools 
 workbone 
 xfsdump 
+zsh 
 
 # D
 autoconf 
@@ -168,7 +191,6 @@ cmake
 cscope 
 cvs 
 dev86 
-distcc 
 doxygen 
 flex 
 gcc 
@@ -210,6 +232,9 @@ M2Crypto
 PyQt 
 QScintilla 
 aalib 
+akonadi 
+alsa-lib 
+alsa-oss 
 apr 
 apr-util 
 aspell 
@@ -387,6 +412,10 @@ openexr
 pango 
 parted 
 pcre 
+phonon 
+phonon-gstreamer 
+phonon-mplayer 
+phonon-xine 
 pil 
 pilot-link 
 polkit 
@@ -407,6 +436,7 @@ qca-gnupg
 qca-ossl 
 qimageblitz 
 qjson 
+qt 
 qtscriptgenerator 
 raptor2 
 rasqal 
@@ -415,6 +445,7 @@ redland
 sdl 
 seamonkey-solibs 
 sg3_utils 
+shared-desktop-ontologies 
 shared-mime-info 
 sip 
 slang 
@@ -424,12 +455,17 @@ sound-theme-freedesktop
 startup-notification 
 strigi 
 svgalib 
+system-config-printer 
 t1lib 
 taglib 
 taglib-extras 
+tango-icon-theme 
+tango-icon-theme-extras 
 urwid 
 v4l-utils 
+virtuoso-ose 
 vte 
+wavpack 
 zlib 
 
 # N
@@ -453,11 +489,9 @@ cyrus-sasl
 dhcp 
 dhcpcd 
 dirmngr 
-dnsmasq 
 ebtables 
 epic5 
 ethtool 
-fetchmail 
 getmail 
 gnupg 
 gnupg2 
@@ -495,7 +529,6 @@ libnetfilter_queue
 libnfnetlink 
 libqmi 
 links 
-lynx 
 mailx 
 mcabber 
 metamail 
@@ -536,7 +569,6 @@ openssh
 openssl 
 openvpn 
 p11-kit 
-php 
 pidentd 
 pinentry 
 popa3d 
@@ -788,6 +820,8 @@ xf86-video-mach64
 xf86-video-mga 
 xf86-video-modesetting 
 xf86-video-neomagic 
+xf86-video-nouveau 
+xf86-video-nv 
 xf86-video-openchrome 
 xf86-video-r128 
 xf86-video-rendition 
