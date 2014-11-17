@@ -1,0 +1,4 @@
+Mon Nov 17 09:08:16 CET 2014
+Confection d'un LiveCD basé sur Slackware 14.1 32-bit.
+Partitionnement.
++--------------------------+
