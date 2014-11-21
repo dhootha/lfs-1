@@ -4,4 +4,7 @@ Créer un répertoire '/mnt/lfs'.
 
 Préconfigurer Firefox pour l'utilisateur 'lfs'. 
 
+Objectif : faire une installation script�e en suivant le manuel, dans les
+règes de l'art. Pas de gestion des paquets pour l'instant, on garde �a pour
+plus tard. 
 

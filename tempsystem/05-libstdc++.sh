@@ -1,6 +1,7 @@
 #!/bin/sh
 #
 # Libstdc++
+set -e
 WGETLIST="\
 http://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2"
 cd $LFS/sources

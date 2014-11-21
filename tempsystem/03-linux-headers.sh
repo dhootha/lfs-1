@@ -1,6 +1,7 @@
 #!/bin/sh
 #
 # Linux API Headers
+set -e
 WGETLIST="\
 https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.16.2.tar.xz"
 cd $LFS/sources

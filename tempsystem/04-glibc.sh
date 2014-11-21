@@ -1,6 +1,7 @@
 #!/bin/sh
 #
 # Glibc
+set -e
 WGETLIST="\
 http://ftp.gnu.org/gnu/glibc/glibc-2.20.tar.xz
 http://www.linuxfromscratch.org/patches/lfs/7.6/glibc-2.20-fhs-1.patch"

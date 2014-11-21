@@ -1,6 +1,7 @@
 #!/bin/sh
 #
 # Binutils Pass 2
+set -e
 WGETLIST="\
 http://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2
 http://www.linuxfromscratch.org/patches/lfs/development/binutils-2.24-load_gcc_lto_plugin_by_default-1.patch

@@ -1,0 +1,9 @@
+#!/bin/sh
+CWD=$(pwd)
+$CWD/01-binutils-pass-1.sh
+$CWD/02-gcc-pass-1.sh
+$CWD/03-linux-headers.sh
+$CWD/04-glibc.sh
+$CWD/05-libstdc++.sh
+$CWD/06-binutils-pass-2.sh
+$CWD/07-gcc-pass-2.sh
