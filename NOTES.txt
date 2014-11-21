@@ -1,0 +1,7 @@
+Prochaine version du LiveCD :
+
+Créer un répertoire '/mnt/lfs'.
+
+Préconfigurer Firefox pour l'utilisateur 'lfs'. 
+
+

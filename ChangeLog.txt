@@ -1,8 +1,0 @@
-Mon Nov 17 09:08:16 CET 2014
-Confection d'un LiveCD basé sur Slackware 14.1 32-bit.
-Partitionnement.
-Création des systèmes de fichiers.
-Montage des systèmes de fichiers.
-La variable $LFS.
-Téléchargement du code source et des patchs.
-+--------------------------+
