@@ -13,7 +13,7 @@ tar -xvf binutils-2.24.tar.bz2
 mkdir -v binutils-build
 cd binutils-build
 ../binutils-2.24/configure     \
-    --prefix=/tools            \
+    --prefix=/tools        \
     --with-sysroot=$LFS        \
     --with-lib-path=/tools/lib \
     --target=$LFS_TGT          \
