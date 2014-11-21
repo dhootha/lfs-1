@@ -1,7 +1,6 @@
 #!/bin/sh
 #
-# Binutils Pass 1
-set -e
+# Binutils Pass 2
 WGETLIST="\
 http://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2
 http://www.linuxfromscratch.org/patches/lfs/development/binutils-2.24-load_gcc_lto_plugin_by_default-1.patch
@@ -12,19 +11,20 @@ rm -rf binutils-2.24 binutils-build
 tar -xvf binutils-2.24.tar.bz2
 mkdir -v binutils-build
 cd binutils-build
+CC=$LFS_TGT-gcc                \
+AR=$LFS_TGT-ar                 \
+RANLIB=$LFS_TGT-ranlib         \
 ../binutils-2.24/configure     \
     --prefix=/tools            \
-    --with-sysroot=$LFS        \
-    --with-lib-path=/tools/lib \
-    --target=$LFS_TGT          \
     --disable-nls              \
-    --disable-werror
+    --disable-werror           \
+    --with-lib-path=/tools/lib \
+    --with-sysroot
 make -j 5
-case $(uname -m) in
-  x86_64) mkdir -v /tools/lib && ln -sv lib /tools/lib64 ;;
-esac
 make install
-
+make -C ld clean
+make -C ld LIB_PATH=/usr/lib:/lib
+cp -v ld/ld-new /tools/bin
 
 
 
