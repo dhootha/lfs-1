@@ -1,10 +1,16 @@
 Prochaine version du LiveCD :
 
-CrÃ©er un rÃ©pertoire '/mnt/lfs'.
+Créer un répertoire /mnt/lfs.
 
-PrÃ©configurer Firefox pour l'utilisateur 'lfs'. 
+Préconfigurer Firefox pour l'utilisateur lfs. 
 
-Objectif : faire une installation scriptÃe en suivant le manuel, dans les
-rÃ¨ges de l'art. Pas de gestion des paquets pour l'instant, on garde Ãa pour
+Importer les scripts complets depuis Github.
+
+Objectif : faire une installation scriptée en suivant le manuel, dans les
+règles de l'art. Pas de gestion des paquets pour l'instant, on garde ça pour
 plus tard. 
+
+Petite modification : construire le système temporaire en tant que root.
+
+On devra donc définir l'environnement de root comme pour l'utilisateur lfs.
 
