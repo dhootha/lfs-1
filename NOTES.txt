@@ -10,11 +10,9 @@ Objectif : faire une installation scriptée en suivant le manuel, dans les
 règles de l'art. Pas de gestion des paquets pour l'instant, on garde ça pour
 plus tard. 
 
-<<<<<<< HEAD
-DÃfinir $LFS pour l'utilisateur root Ãgalement.
-=======
+Définir $LFS pour l'utilisateur root également.
+
 Petite modification : construire le système temporaire en tant que root.
 
 On devra donc définir l'environnement de root comme pour l'utilisateur lfs.
->>>>>>> c9e41e155d73db210e4d589c21470e61bf5ff4ec
 
