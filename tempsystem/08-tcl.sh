@@ -5,7 +5,7 @@ set -e
 WGETLIST="\
 http://downloads.sourceforge.net/project/tcl/Tcl/8.6.2/tcl8.6.2-src.tar.gz"
 cd $LFS/sources
-#wget -c $WGETLIST
+wget -c $WGETLIST
 rm -rf tcl8.6.2
 tar -xvf tcl8.6.2-src.tar.gz
 cd tcl8.6.2

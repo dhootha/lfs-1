@@ -3,9 +3,7 @@
 # Binutils Pass 2
 set -e
 WGETLIST="\
-http://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2
-http://www.linuxfromscratch.org/patches/lfs/development/binutils-2.24-load_gcc_lto_plugin_by_default-1.patch
-http://www.linuxfromscratch.org/patches/lfs/development/binutils-2.24-lto_testsuite-1.patch"
+http://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2"
 cd $LFS/sources
 wget -c $WGETLIST
 rm -rf binutils-2.24 binutils-build

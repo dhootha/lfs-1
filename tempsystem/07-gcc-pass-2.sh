@@ -6,8 +6,7 @@ WGETLIST="\
 http://ftp.gnu.org/gnu/gcc/gcc-4.9.1/gcc-4.9.1.tar.bz2
 http://www.mpfr.org/mpfr-3.1.2/mpfr-3.1.2.tar.xz
 http://ftp.gnu.org/gnu//gmp/gmp-6.0.0a.tar.xz
-http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz
-http://www.linuxfromscratch.org/patches/lfs/7.6/gcc-4.9.1-upstream_fixes-1.patch"
+http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz"
 cd $LFS/sources
 wget -c $WGETLIST
 rm -rf gcc-4.9.1 gcc-build
