@@ -8,3 +8,5 @@ Objectif : faire une installation script√e en suivant le manuel, dans les
 r√®ges de l'art. Pas de gestion des paquets pour l'instant, on garde √a pour
 plus tard. 
 
+D√finir $LFS pour l'utilisateur root √galement.
+
