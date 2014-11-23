@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 CWD=$(pwd)
 $CWD/01-binutils-pass-1.sh
 $CWD/02-gcc-pass-1.sh
