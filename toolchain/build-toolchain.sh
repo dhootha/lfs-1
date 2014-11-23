@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 CWD=$(pwd)
+$CWD/00-download.sh
 $CWD/01-binutils-pass-1.sh
 $CWD/02-gcc-pass-1.sh
 $CWD/03-linux-headers.sh
@@ -32,4 +33,6 @@ $CWD/28-tar.sh
 $CWD/29-texinfo.sh
 $CWD/30-util-linux.sh
 $CWD/31-xz.sh
-$CWD/32-stripping.sh
+$CWD/32-strip.sh
+$CWD/33-virtual-filesystems.sh
+$CWD/34-chroot.sh
