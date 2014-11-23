@@ -2,10 +2,7 @@
 #
 # Make
 set -e
-WGETLIST="\
-http://ftp.gnu.org/gnu/make/make-4.0.tar.bz2"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf make-4.0
 tar -xvf make-4.0.tar.bz2
 cd make-4.0
@@ -13,3 +10,5 @@ cd make-4.0
 make -j 5
 #make check
 make install
+cd $LFS/sources
+rm -rf make-4.0

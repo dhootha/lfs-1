@@ -2,10 +2,7 @@
 #
 # File
 set -e
-WGETLIST="\
-ftp://ftp.astron.com/pub/file/file-5.19.tar.gz"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf file-5.19
 tar -xvf file-5.19.tar.gz
 cd file-5.19
@@ -13,4 +10,6 @@ cd file-5.19
 make -j 5
 #make check
 make install
+cd $LFS/sources
+rm -rf file-5.19
 

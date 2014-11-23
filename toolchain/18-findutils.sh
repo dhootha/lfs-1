@@ -2,10 +2,7 @@
 #
 # Findutils
 set -e
-WGETLIST="\
-http://ftp.gnu.org/gnu/findutils/findutils-4.4.2.tar.gz"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf findutils-4.4.2
 tar -xvf findutils-4.4.2.tar.gz
 cd findutils-4.4.2
@@ -13,4 +10,6 @@ cd findutils-4.4.2
 make -j 5
 #make check
 make install
+cd $LFS/sources
+rm -rf findutils-4.4.2
 

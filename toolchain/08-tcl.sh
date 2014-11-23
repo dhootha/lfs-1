@@ -2,10 +2,7 @@
 #
 # Tcl
 set -e
-WGETLIST="\
-http://downloads.sourceforge.net/project/tcl/Tcl/8.6.2/tcl8.6.2-src.tar.gz"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf tcl8.6.2
 tar -xvf tcl8.6.2-src.tar.gz
 cd tcl8.6.2
@@ -17,6 +14,8 @@ make install
 chmod -v u+w /tools/lib/libtcl8.6.so
 make install-private-headers
 ln -sv tclsh8.6 /tools/bin/tclsh
+cd $LFS/sources
+rm -rf tcl8.6.2
 
 
 

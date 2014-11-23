@@ -2,10 +2,7 @@
 #
 # Ncurses
 set -e
-WGETLIST="\
-http://ftp.gnu.org/gnu//ncurses/ncurses-5.9.tar.gz"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf ncurses-5.9
 tar -xvf ncurses-5.9.tar.gz
 cd ncurses-5.9
@@ -17,5 +14,7 @@ cd ncurses-5.9
             --enable-overwrite
 make -j 5
 make install
+cd $LFS/sources
+rm -rf ncurses-5.9
 
 

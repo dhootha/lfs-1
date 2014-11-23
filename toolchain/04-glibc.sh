@@ -2,10 +2,7 @@
 #
 # Glibc
 set -e
-WGETLIST="\
-http://ftp.gnu.org/gnu/glibc/glibc-2.20.tar.xz"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf glibc-2.20 glibc-build
 tar -xvf glibc-2.20.tar.xz
 mkdir glibc-build
@@ -22,6 +19,8 @@ cd glibc-build
       libc_cv_c_cleanup=yes
 make -j 5
 make install
+cd $LFS/sources
+rm -rf glibc-2.20 glibc-build
 echo "######## TEST ########"
 echo 'main(){}' > dummy.c
 $LFS_TGT-gcc dummy.c

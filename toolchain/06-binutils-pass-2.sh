@@ -2,10 +2,7 @@
 #
 # Binutils Pass 2
 set -e
-WGETLIST="\
-http://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf binutils-2.24 binutils-build
 tar -xvf binutils-2.24.tar.bz2
 mkdir -v binutils-build
@@ -24,6 +21,8 @@ make install
 make -C ld clean
 make -C ld LIB_PATH=/usr/lib:/lib
 cp -v ld/ld-new /tools/bin
+cd $LFS/sources
+rm -rf binutils-2.24 binutils-build
 
 
 

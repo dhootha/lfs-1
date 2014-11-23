@@ -2,10 +2,7 @@
 #
 # M4
 set -e
-WGETLIST="\
-http://ftp.gnu.org/gnu/m4/m4-1.4.17.tar.xz"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf m4-1.4.17
 tar -xvf m4-1.4.17.tar.xz
 cd m4-1.4.17
@@ -13,4 +10,6 @@ cd m4-1.4.17
 make -j 5
 #make check
 make install
+cd $LFS/sources
+rm -rf m4-1.4.17
 

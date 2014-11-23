@@ -2,10 +2,7 @@
 #
 # Expect
 set -e
-WGETLIST="\
-http://prdownloads.sourceforge.net/expect/expect5.45.tar.gz"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf expect5.45
 tar -xvf expect5.45.tar.gz
 cd expect5.45
@@ -17,6 +14,8 @@ sed 's:/usr/local/bin:/bin:' configure.orig > configure
 make -j 5
 #make test
 make SCRIPTS="" install
+cd $LFS/sources
+rm -rf expect5.45
 
 
 

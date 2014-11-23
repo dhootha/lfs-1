@@ -2,10 +2,7 @@
 #
 # Diffutils
 set -e
-WGETLIST="\
-http://ftp.gnu.org/gnu/diffutils/diffutils-3.3.tar.xz"
 cd $LFS/sources
-wget -c $WGETLIST
 rm -rf diffutils-3.3
 tar -xvf diffutils-3.3.tar.xz
 cd diffutils-3.3
@@ -13,4 +10,6 @@ cd diffutils-3.3
 make -j 5
 #make check
 make install
+cd $LFS/sources
+rm -rf diffutils-3.3
 
