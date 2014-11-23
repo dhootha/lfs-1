@@ -11,6 +11,6 @@ tar -xvf texinfo-5.2.tar.xz
 cd texinfo-5.2
 ./configure --prefix=/tools 
 make -j 5
-make check
+#make check
 make install
 

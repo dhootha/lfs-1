@@ -12,6 +12,6 @@ cd dejagnu-1.5.1
 ./configure --prefix=/tools
 make -j 5
 make install
-make check
+#make check
 
 

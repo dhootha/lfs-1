@@ -11,7 +11,7 @@ tar -xvf xz-5.0.5.tar.xz
 cd xz-5.0.5
 ./configure --prefix=/tools                
 make -j 5
-make check
+#make check
 make install
 
 
