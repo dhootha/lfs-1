@@ -9,7 +9,7 @@ cd tcl8.6.2
 cd unix
 ./configure --prefix=/tools
 make -j 5
-TZ=UTC make test
+#TZ=UTC make test
 make install
 chmod -v u+w /tools/lib/libtcl8.6.so
 make install-private-headers
