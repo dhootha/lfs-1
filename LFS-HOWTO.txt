@@ -93,8 +93,8 @@ Compilation des outils temporaires
 
 À présent, on peut lancer la compilation des outils temporaires :
 
-  # cd lfs/tempsystem
-  # ./tempsystem.sh
+  # cd lfs/toolchain
+  # ./build-toolchain.sh
 
 Ce script se charge de télécharger, compiler et installer une bonne trentaine
 de paquets. Durée de la compilation sur un Quad Core avec 3 Go de RAM :
